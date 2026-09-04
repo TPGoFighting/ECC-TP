@@ -6,9 +6,6 @@ updates:
       interval: "weekly"
       day: "monday"
     open-pull-requests-limit: 10
-    labels:
-      - "dependencies"
-      - "npm"
     groups:
       npm-minor-and-patch:
         patterns:
@@ -26,9 +23,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    labels:
-      - "dependencies"
-      - "ci"
     groups:
       actions-security:
         applies-to: "security-updates"
@@ -46,9 +40,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    labels:
-      - "dependencies"
-      - "python"
     groups:
       pip-security:
         applies-to: "security-updates"
@@ -66,9 +57,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    labels:
-      - "dependencies"
-      - "python"
     groups:
       skill-comply-pip-security:
         applies-to: "security-updates"
@@ -86,9 +74,6 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    labels:
-      - "dependencies"
-      - "rust"
     groups:
       cargo-security:
         applies-to: "security-updates"
